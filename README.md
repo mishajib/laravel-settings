@@ -15,7 +15,7 @@ you want.
 You can install the package via composer:
 
 ```bash
-composer require mishajib/laravel-setting
+composer require mishajib/laravel-settings
 ```
 
 Laravel uses Package Auto-Discovery, so doesn't require you to manually add the ServiceProvider.

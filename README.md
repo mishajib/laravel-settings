@@ -1,9 +1,8 @@
 # Laravel Settings By MI SHAJIB
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/vendor_slug/package_slug.svg?style=flat-square)](https://packagist.org/packages/vendor_slug/package_slug)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/vendor_slug/package_slug/run-tests?label=tests)](https://github.com/vendor_slug/package_slug/actions?query=workflow%3Arun-tests+branch%3Amaster)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/vendor_slug/package_slug/Check%20&%20fix%20styling?label=code%20style)](https://github.com/vendor_slug/package_slug/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amaster)
-[![Total Downloads](https://img.shields.io/packagist/dt/vendor_slug/package_slug.svg?style=flat-square)](https://packagist.org/packages/vendor_slug/package_slug)
+[![Latest Stable Version](https://poser.pugx.org/mishajib/laravel-settings/v)](//packagist.org/packages/mishajib/laravel-settings)
+[![License](https://poser.pugx.org/mishajib/laravel-settings/license)](//packagist.org/packages/mishajib/laravel-settings)
+[![Total Downloads](https://poser.pugx.org/mishajib/laravel-settings/downloads)](//packagist.org/packages/mishajib/laravel-settings)
 
 ---
 We use settings in every application. Which we have to do again and again in every application. For this I have created

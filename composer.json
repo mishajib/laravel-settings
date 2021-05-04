@@ -3,6 +3,13 @@
     "description": "This package manage your site basic settings like - site title, logo etc. You can also add your custom setting using this package.",
     "type": "library",
     "license": "MIT",
+    "keywords": [
+        "laravel",
+        "laravel settings",
+        "settings",
+        "setting",
+        "application"
+    ],
     "authors": [
         {
             "name": "mishajib",

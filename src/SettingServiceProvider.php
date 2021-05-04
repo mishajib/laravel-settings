@@ -6,7 +6,7 @@ use Illuminate\Support\ServiceProvider;
 use MISHAJIB\Settings\Console\Commands\SettingCreateCommand;
 use MISHAJIB\Settings\Console\Commands\SettingForgetCommand;
 use MISHAJIB\Settings\Console\Commands\SettingUpdateCommand;
-use MISHAJIB\Settings\Console\Commands\ShowAllSettingUpdateCommand;
+use MISHAJIB\Settings\Console\Commands\ShowAllSettingCommand;
 
 class SettingServiceProvider extends ServiceProvider
 {
@@ -15,7 +15,7 @@ class SettingServiceProvider extends ServiceProvider
         $this->loadMigrationsFrom(__DIR__ . '/database/migrations');
         if ($this->app->runningInConsole()) {
             $this->commands([
-                ShowAllSettingUpdateCommand::class,
+                ShowAllSettingCommand::class,
                 SettingCreateCommand::class,
                 SettingForgetCommand::class,
                 SettingUpdateCommand::class,

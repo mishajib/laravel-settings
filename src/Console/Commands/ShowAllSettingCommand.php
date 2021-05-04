@@ -5,7 +5,7 @@ namespace MISHAJIB\Settings\Console\Commands;
 use Illuminate\Console\Command;
 use MISHAJIB\Settings\Facades\LaravelSettings;
 
-class ShowAllSettingUpdateCommand extends Command
+class ShowAllSettingCommand extends Command
 {
     /**
      * The name and signature of the console command.
@@ -19,7 +19,7 @@ class ShowAllSettingUpdateCommand extends Command
      *
      * @var string
      */
-    protected $description = 'Command description';
+    protected $description = 'Show All Setting From Settings Table';
 
     /**
      * Create a new command instance.

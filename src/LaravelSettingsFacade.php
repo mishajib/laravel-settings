@@ -10,10 +10,10 @@ class LaravelSettingsFacade
 {
     /**
      * @param string $key
-     * @param string $value
+     * @param $value
      * @return mixed
      */
-    public function set(string $key = "", string $value = "")
+    public function set(string $key = "", $value = null)
     {
         return Setting::updateOrCreate([
             'setting_key' => $key
